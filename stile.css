@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+    background-color: midnightblue;
+}
+
+.nav ul{
+    display: flex;
+}
+
+.flex{
+    display:flex;
+}
+
+.left{
+    font-size: 23px;
+}
+.color{
+    color:black;
+    font-weight:bold;
+    
+}
+.content{
+    align-items: center;
+    justify-content:space-around;
+    background-color: aqua;
+    height:50px;
+}
+
+.right ul li{
+    list-style: none;
+    margin:0 20px;
+}
+
+.left-column{
+    width:40%;
+    margin:20px 0;
+    align-items: center;
+    font-size: 3rem;
+    color:aliceblue;
+}
+
+.right-column{
+  margin:0 15px;
+}
+
+.first-column{
+    
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.white{
+    color:aquamarine;
+}
+
+#element{
+    color: aquamarine;
+}
+
+header hr{
+    background-color: mediumturquoise;
+    height: 6px;
+    border: 0;
+}
+
+.second-column{
+    background-color:cornflowerblue;
+    min-height:80vh ;
+    margin: auto;
+}
+
+.box1 hr{
+    width: 19vw;
+    margin:0 20px;
+    height:5px;
+    background-color: bisque;
+    border: 0;
+}
+
+h1{
+    margin:0 25px;
+    font-size: 30px;
+    padding: 15px 0 0 0;
+
+}
+
+.line-structure{
+    display: flex;
+    margin:50px 0 0 60px;
+}
+.vertical-line{
+    height: 220px;
+    width:5px;
+    background: blueviolet;
+}
+
+.horizontal-line{
+    background-color: azure;
+    height: 1px;
+    width: 120px;
+    margin:20px 0 0 0;
+}
+
+.line-structure2{
+    display: flex;
+    margin:0px 0 0 60px;
+}
+.vertical-line2{
+    height: 180px;
+    width:5px;
+    background: blueviolet;
+}
+
+.horizontal-line2{
+    background-color: azure;
+    height: 1px;
+    width: 120px;
+
+}
+
+.line-structure3{
+    display: flex;
+    margin:0px 0 0 60px;
+}
+.vertical-line3{
+    height: 180px;
+    width:5px;
+    background: blueviolet;
+}
+
+.horizontal-line3{
+    background-color: azure;
+    height: 1px;
+    width: 120px;
+}
+
+.connect-line1{
+    background: azure;
+    height: 15px;
+    width: 1px;
+    margin:20px 0 0 0;
+}
+
+.connect-line2{
+    background: azure;
+    height: 15px;
+    width: 1px;
+}
+
+.connect-line3{
+    background: azure;
+    height: 15px;
+    width: 1px;
+}
+
+.line-structure img{
+    width: 150px;
+    height: 150px;
+    margin: 35px -70px;
+    border: solid whitesmoke;
+}
+
+.line-structure ul{
+    margin: 47px 200px ;
+    font-size: 20px;
+
+}
+
+.line-structure2 img{
+    width: 150px;
+    height: 150px;
+    margin: 15px -70px;
+    border: solid whitesmoke;
+}
+
+.line-structure2 ul{
+    margin: 30px 200px;
+    font-size: 20px;
+}
+
+.line-structure3 img{
+    width: 150px;
+    height: 150px;
+    margin: 15px -70px;
+    border: solid whitesmoke;
+}
+
+.line-structure3 ul{
+    margin: 30px 200px;
+    font-size: 20px;
+}
+
+.design hr{
+    background-color: mediumturquoise;
+    border: 0;
+    height: 5px;
+}
+
+.third-column{
+    background-color:midnightblue;
+}
+.third-column h1{
+    margin: 0px 10px;
+    padding: 10px;
+    color: aliceblue;
+    text-decoration: underline;
+    text-decoration-color: antiquewhite;
+}
+.last-section-heading {
+    margin: 9px 34px;
+}
+
+.last-section-heading ul li{
+    margin: 0 55px;
+    font-size: 20px;
+    color: azure;
+}
+
+.last-section-heading ul{
+    color: aqua;
+}
+
+.third-column hr{
+    border:0;
+    background-color: aquamarine;
+    height: 2px;
+    margin-left: 10px;
+}
+
+.selfinfo h2{
+    margin: 10px 30px;
+    color: aqua;
+
+}
+
+.selfinfo ul li{
+    margin: 0 83px;
+    font-size: 20px;
+    color: azure;
+}
+
+.foot{
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    background-color: aqua;
+    padding: 2px;
+}
+
+.thumbnail { 
+    top:-50px; 
+    left:-35px; 
+    display:block; 
+    z-index:999; 
+    cursor: pointer; 
+    -webkit-transition-property: all; 
+    -webkit-transition-duration: 0.3s; 
+    -webkit-transition-timing-function: ease; 
+    } 
+    
+    /*change the number below to scale to the appropriate size*/ 
+    .thumbnail:hover { 
+    transform: scale(2); 
+    
+    }
